@@ -67,6 +67,7 @@ export default function Home() {
 
   return (
     <>
+      <link rel="preload" as="image" href="/vansh.jpg" />
       <Header />
       
       <main className="w-full bg-white text-black overflow-hidden" ref={heroRef}>
