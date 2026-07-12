@@ -99,29 +99,28 @@ export default function FAQSection() {
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
-              <div
-                key={index}
-                className="faq-entrance border border-black transition-all duration-300"
-              >
-                <button
-                  onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className="w-full text-left p-6 md:p-8 flex justify-between items-center uppercase tracking-wider font-semibold text-xs md:text-sm hover:bg-black hover:text-white transition-colors duration-200"
-                  aria-expanded={isOpen}
-                >
-                  <span>{faq.question}</span>
-                  <span className="text-lg font-mono">
-                    {isOpen ? "[-]" : "[+]"}
-                  </span>
-                </button>
-                
-                <div
-                  className={`transition-all duration-300 ease-in-out overflow-hidden ${
-                    isOpen ? "max-h-[500px] border-t border-black" : "max-h-0"
-                  }`}
-                >
-                  <p className="p-6 md:p-8 text-sm md:text-base font-light leading-relaxed text-black/80 bg-black/[0.01]">
-                    {faq.answer}
-                  </p>
+              <div key={index} className="faq-entrance">
+                <div className="border border-black transition-all duration-300">
+                  <button
+                    onClick={() => setOpenIndex(isOpen ? null : index)}
+                    className="w-full text-left p-6 md:p-8 flex justify-between items-center uppercase tracking-wider font-semibold text-xs md:text-sm hover:bg-black hover:text-white transition-colors duration-200"
+                    aria-expanded={isOpen}
+                  >
+                    <span>{faq.question}</span>
+                    <span className="text-lg font-mono">
+                      {isOpen ? "[-]" : "[+]"}
+                    </span>
+                  </button>
+                  
+                  <div
+                    className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                      isOpen ? "max-h-[500px] border-t border-black" : "max-h-0"
+                    }`}
+                  >
+                    <p className="p-6 md:p-8 text-sm md:text-base font-light leading-relaxed text-black/80 bg-black/[0.01]">
+                      {faq.answer}
+                    </p>
+                  </div>
                 </div>
               </div>
             );

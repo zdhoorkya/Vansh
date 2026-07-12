@@ -77,8 +77,8 @@ export async function POST(request: Request) {
             Authorization: `Bearer ${resendApiKey}`,
           },
           body: JSON.stringify({
-            from: "contact@vanshbarman.com",
-            to: "vanshbarman@gmail.com", // Fallback destination
+            from: "officialvanshbarman@gmail.com",
+            to: "officialvanshbarman@gmail.com", // Fallback destination
             subject: `Vansh Barman Brand Site: ${newSubmission.subject}`,
             html: `
               <h3>New submission from ${newSubmission.name}</h3>

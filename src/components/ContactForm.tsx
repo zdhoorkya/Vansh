@@ -77,10 +77,10 @@ export default function ContactForm() {
             <div>
               <span className="block text-black/40 uppercase">Direct Email</span>
               <a
-                href="mailto:contact@vanshbarman.com"
+                href="mailto:officialvanshbarman@gmail.com"
                 className="hover:underline font-semibold"
               >
-                contact@vanshbarman.com
+                officialvanshbarman@gmail.com
               </a>
             </div>
             <div>
