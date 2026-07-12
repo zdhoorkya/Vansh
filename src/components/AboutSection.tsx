@@ -93,19 +93,19 @@ export default function AboutSection() {
             <div className="reveal-text mb-10 max-w-sm border border-black p-1 bg-white select-none">
               <img
                 src="/vansh.jpg"
-                alt="Vansh Barman Portrait"
+                alt="Vansh Barman - Screenwriter and Entrepreneur Portrait"
                 className="w-full h-auto grayscale hover:grayscale-0 filter contrast-[1.10] hover:contrast-100 transition-all duration-500 ease-in-out cursor-pointer"
               />
             </div>
             <div className="reveal-text space-y-6 text-base md:text-lg font-light leading-relaxed text-black/80 max-w-2xl">
               <p>
-                Vansh Barman is a founder, writer, and systems architect. He builds long-term operational systems and multi-disciplinary IP franchises across film, fashion, fragrance, and technology.
+                Vansh Barman is a screenwriter, founder, and systems architect. He builds long-term operational systems and multi-disciplinary IP franchises across film, fashion, fragrance, and technology.
               </p>
               <p>
                 Working at the intersection of cinematic worldbuilding and digital infrastructure, Vansh develops cohesive cultural brands. By framing creative expressions through strict operational rules, he enables projects to scale sustainably without losing aesthetic focus.
               </p>
               <p>
-                Based in India, Vansh collaborates globally with heritage artisans, developers, and filmmakers to create tactile, high-end products and narratives built to endure.
+                Based in India, he maintains his <a href="https://vanshbarman.com" className="underline hover:text-black transition-colors">Official Website</a> to catalog ongoing ventures. His creative portfolio and screenwriting entities are verified on <a href="https://www.wikidata.org/wiki/Q140521311" target="_blank" rel="noopener noreferrer" className="underline hover:text-black transition-colors">Wikidata</a>, with active updates shared on <a href="https://www.instagram.com/vanshbarmanofficial" target="_blank" rel="noopener noreferrer" className="underline hover:text-black transition-colors">Instagram</a> and <a href="https://x.com/vanshbarman13" target="_blank" rel="noopener noreferrer" className="underline hover:text-black transition-colors">X</a>.
               </p>
             </div>
           </div>

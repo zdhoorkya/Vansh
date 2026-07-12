@@ -88,7 +88,7 @@ export default function Home() {
           {/* Top tagline element */}
           <div className="relative z-10 max-w-7xl mx-auto w-full flex justify-between items-start pt-12 md:pt-16">
             <span className="hero-text-reveal text-xs font-mono font-bold tracking-[0.2em] uppercase text-black/40">
-              Personal Repository // V.B.
+              Personal Repository // Vansh Barman
             </span>
             <span className="hero-text-reveal text-xs font-mono font-bold tracking-[0.2em] uppercase text-black/40 hidden sm:inline">
               Est. &copy; 2026

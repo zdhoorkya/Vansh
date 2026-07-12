@@ -25,15 +25,16 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://vanshbarman.com"),
   title: {
-    default: "Vansh Barman — Founder & Writer",
+    default: "Vansh Barman — Screenwriter & Entrepreneur",
     template: "%s | Vansh Barman",
   },
-  description: "Personal brand portfolio of Vansh Barman. Building original intellectual property, luxury consumer goods, and operations platforms across film, fashion, fragrance, and technology.",
+  description: "Indian screenwriter and entrepreneur developing original science fiction, action and drama projects across film, fashion, fragrance, and technology.",
   keywords: [
     "Vansh Barman",
-    "Vansh Barman Writer",
+    "Vansh Barman Screenwriter",
     "Vansh Barman Projects",
     "Vansh Barman Business",
+    "Vansh Barman Entrepreneur",
     "RAVEN FIRST PRINCIPLES",
     "Zdhoorkya",
     "Lexwrender",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   creator: "Vansh Barman",
   publisher: "Vansh Barman",
   alternates: {
-    canonical: "/",
+    canonical: "https://vanshbarman.com",
   },
   robots: {
     index: true,
@@ -64,27 +65,27 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    type: "website",
+    type: "profile",
     locale: "en_US",
     url: "https://vanshbarman.com",
-    title: "Vansh Barman — Founder & Writer",
-    description: "Building original intellectual property, luxury consumer goods, and operations platforms across film, fashion, fragrance, and technology.",
+    title: "Vansh Barman — Screenwriter & Entrepreneur",
+    description: "Indian screenwriter and entrepreneur developing original science fiction, action and drama projects.",
     siteName: "Vansh Barman",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Vansh Barman — Founder & Writer",
+        alt: "Vansh Barman — Screenwriter & Entrepreneur",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vansh Barman — Founder & Writer",
-    description: "Building original intellectual property, luxury consumer goods, and operations platforms across film, fashion, fragrance, and technology.",
+    title: "Vansh Barman — Screenwriter & Entrepreneur",
+    description: "Indian screenwriter and entrepreneur developing original science fiction, action and drama projects.",
     images: ["/og-image.png"],
-    creator: "@vanshbarman",
+    creator: "@vanshbarman13",
   },
   manifest: "/manifest.json",
 };
@@ -99,25 +100,34 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Vansh Barman",
-    "jobTitle": "Founder & Writer",
+    "givenName": "Vansh",
+    "familyName": "Barman",
     "url": "https://vanshbarman.com",
-    "sameAs": [
-      "https://x.com/VanshBarman13",
-      "https://www.instagram.com/vanshbarmanofficial"
-    ],
+    "image": "https://vanshbarman.com/vansh.jpg",
+    "jobTitle": "Screenwriter",
+    "description": "Indian screenwriter and entrepreneur developing original science fiction, action and drama projects.",
+    "nationality": {
+      "@type": "Country",
+      "name": "India"
+    },
     "knowsAbout": [
-      "Film Production",
-      "Grounded Sci-Fi",
-      "Luxury Consumer Goods",
-      "Banarasi Textiles",
-      "Olfactory Product Design",
-      "Software Systems Architecture"
+      "Screenwriting",
+      "Filmmaking",
+      "Storytelling",
+      "Entrepreneurship",
+      "Worldbuilding"
+    ],
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q140521311",
+      "https://www.instagram.com/vanshbarmanofficial",
+      "https://x.com/vanshbarman13"
     ]
   };
 
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="preload" as="image" href="/vansh.jpg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}

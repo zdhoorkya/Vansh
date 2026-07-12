@@ -180,7 +180,7 @@ export default function AdminUploadPage() {
                         <div className="w-12 h-12 flex-shrink-0 bg-black/5 border border-black/10 select-none overflow-hidden">
                           <img
                             src={`/uploads/${filename}`}
-                            alt="Thumbnail"
+                            alt="Vansh Barman - Uploaded Asset Thumbnail"
                             className="w-full h-full object-cover"
                           />
                         </div>

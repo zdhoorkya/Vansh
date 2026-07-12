@@ -7,13 +7,28 @@ export const metadata: Metadata = {
   title: "Creative Gallery",
   description: "Exquisite visual IP archives, product concepts, and photography logs curated by Vansh Barman. Grayscale cinematic exhibition.",
   alternates: {
-    canonical: "/gallery",
+    canonical: "https://vanshbarman.com/gallery",
   },
   openGraph: {
+    type: "profile",
+    locale: "en_US",
+    url: "https://vanshbarman.com/gallery",
     title: "Creative Gallery | Vansh Barman",
     description: "Visual IP archives, product concepts, and photography logs curated by Vansh Barman.",
-    url: "https://vanshbarman.com/gallery",
-    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Creative Gallery | Vansh Barman",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Creative Gallery | Vansh Barman",
+    description: "Visual IP archives, product concepts, and photography logs curated by Vansh Barman.",
+    images: ["/og-image.png"],
   },
 };
 
