@@ -1,0 +1,10 @@
+{
+  "name": "Vansh Barman",
+  "short_name": "Vansh Barman",
+  "description": "Vansh Barman Personal Brand Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": []
+}

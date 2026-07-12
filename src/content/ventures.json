@@ -1,0 +1,38 @@
+[
+  {
+    "id": "raven",
+    "title": "RAVEN: FIRST PRINCIPLES",
+    "role": "Creator & Writer",
+    "category": "Entertainment & Film",
+    "oneLiner": "An original superhero feature film franchise grounded in realistic sci-fi mythology.",
+    "description": "A cinematic universe built around first principles of physics, biology, and human psychology. RAVEN rejects traditional campy superhero tropes in favor of a grounded, gritty, intellectualsci-fi mythology. The franchise explores the socio-political consequences of power, weaponized intelligence, and existential threat in a hyper-realistic modern setting.",
+    "tags": ["Feature Film", "Original IP", "Grounded Sci-Fi", "Franchise Development"]
+  },
+  {
+    "id": "zdhoorkya",
+    "title": "Zdhoorkya",
+    "role": "Founder & Creative Director",
+    "category": "High Fashion",
+    "oneLiner": "Premium global fashion positioning showcasing authentic Indian textiles.",
+    "description": "A luxury fashion house redefining traditional Indian craftsmanship for the global stage. Zdhoorkya merges the intricate artistry of heritage Banarasi silk weavers with modern, minimalist, sculptural silhouettes. The brand positions Indian textile heritage not as historic costume, but as the pinnacle of modern global luxury design.",
+    "tags": ["Luxury Fashion", "Indian Textiles", "Banarasi Weaving", "Global Positioning"]
+  },
+  {
+    "id": "lexwrender",
+    "title": "LEXWRENDER",
+    "role": "Founder",
+    "category": "Luxury Fragrance",
+    "oneLiner": "Sophisticated olfactory creations and structural product design.",
+    "description": "A high-end fragrance house focused on conceptual scent profiles, architectural glass bottles, and sensory restraint. LEXWRENDER designs bespoke extraits de parfum that translate abstract ideas, textures, and architecture into luxury scents, focusing on exquisite raw materials and minimalist, premium presentation.",
+    "tags": ["Haute Parfumerie", "Industrial Design", "Olfactory Art", "Brand Strategy"]
+  },
+  {
+    "id": "primpla",
+    "title": "Primpla",
+    "role": "Architect & Developer",
+    "category": "Technology & Ops",
+    "oneLiner": "An internal operations and proprietary business management system.",
+    "description": "A proprietary business management system built as a unified operational engine. Primpla streamlines inventory logistics, supply chain pathways, creative planning, and financial ledgers into a single, cohesive internal operations cockpit. Designed from the ground up to power multi-disciplinary IP franchises and creative ventures.",
+    "tags": ["Operations Platform", "SaaS Systems", "Proprietary Software", "Systems Architecture"]
+  }
+]
