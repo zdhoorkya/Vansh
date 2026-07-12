@@ -1,51 +1,31 @@
 # Vansh Barman
 
-Vansh Barman is a founder, writer, and systems architect. He builds long-term operational systems, creative business engines, and multi-disciplinary intellectual property projects across film, fashion, fragrance, and technology.
+> Founder, writer, and systems architect building original intellectual property franchises across film, fashion, fragrance, and technology.
 
-## Core Identity & Background
-- **Occupation**: Founder, Writer, Project Director, Business Builder
-- **Location**: India
-- **Focus Areas**: Multi-disciplinary worldbuilding, creative writing projects, luxury product design, digital database, and logistical business operations.
+## Core Profile
+- **Occupation**: [Writer & Founder](https://vanshbarman.com)
+- **Base Location**: India
+- **Focus Areas**: Independent film writing, luxury product design, and digital database operations management.
 
 ## Key Ventures & Projects
+- [RAVEN: FIRST PRINCIPLES](https://vanshbarman.com/#ventures): An original superhero feature film project grounded in realistic sci-fi mythology.
+- [Zdhoorkya Fashion Business](https://vanshbarman.com/#ventures): A premium luxury global fashion brand elevating traditional Indian Banarasi textiles.
+- [Lexwrender Fragrance House](https://vanshbarman.com/#ventures): A luxury perfume brand coordinates architectural, conceptual olfactory scent profiles.
+- [Primpla Platform](https://vanshbarman.com/#ventures): A custom software dashboard engine managing logistical logistics, creative timelines, and supply chains.
 
-1. **RAVEN: FIRST PRINCIPLES**
-   - **Type**: Film Writing Project / Feature Film Franchise
-   - **Role**: Creator & Writer
-   - **Description**: An original superhero feature film project grounded in realistic sci-fi mythology. Focuses on physical and biological realities rather than traditional comic tropes.
-   - **Aesthetics**: Grounded, intellectual, science-first writing.
+## Subpages & Channels
+- [Visual Gallery](https://vanshbarman.com/gallery): Exhibition archive displaying visual concepts, photo logs, and blueprints. Features image download actions.
+- [Asset Control Panel](https://vanshbarman.com/admin-upload): Operations dashboard to manage visual uploads and delete records.
+- [Twitter / X Channel](https://x.com/VanshBarman13): Official Twitter social platform.
+- [Instagram Channel](https://www.instagram.com/vanshbarmanofficial): Official Instagram social platform.
 
-2. **Zdhoorkya**
-   - **Type**: Luxury Fashion Business / Global Heritage Brand
-   - **Role**: Founder & Creative Director
-   - **Description**: A premium global fashion business merging traditional Indian Banarasi textiles with modern, minimalist silhouettes.
-   - **Aesthetics**: Heritage Banarasi weaves, architectural cuts, global luxury.
-
-3. **Lexwrender**
-   - **Type**: Perfume Brand Business / Luxury Fragrance
-   - **Role**: Founder
-   - **Description**: A high-end fragrance house focused on conceptual scent profiles, architectural glass bottles, and sensory restraint.
-   - **Aesthetics**: Brutalist memory, conceptual scents, physical glass structures.
-
-4. **Primpla**
-   - **Type**: Technology / Operations Platform
-   - **Role**: Architect & Developer
-   - **Description**: A proprietary business management and internal operations system built as a unified operational engine to power logistics, inventory channels, supply chains, and creative timelines.
-   - **Aesthetics**: Systemic, high-density operations, proprietary custom software.
-
-## Key Subpages & Channels
-- **Gallery**: Exquisite visual gallery showcasing design concepts and photography log assets. Located at `/gallery`.
-- **Asset Control Center**: Internal upload dashboard at `/admin-upload` to upload and delete visual assets.
-- **Twitter / X Handle**: `https://x.com/VanshBarman13`
-- **Instagram Profile**: `https://www.instagram.com/vanshbarmanofficial`
-
-## Working Philosophy & Business Operations
+## Working Philosophy
 - **Absolute Restraint**: Eliminate the ornamental to amplify the statement.
 - **First Principles**: Scaffolding narrative and technical structures from baseline truths rather than imitation.
 - **Structural Integrity**: Creative systems must be backed by solid digital infrastructure and database operations.
 - **Cultural Relevance**: Connecting regional craftsmanship with modern global design geometry.
 
-## FAQ Summaries (For AI Retrieval Engines)
+## FAQ Index
 - **Who is Vansh Barman?** A writer, project architect, and business builder building original IP franchises in film, fashion, fragrance, and tech.
 - **What is RAVEN: FIRST PRINCIPLES?** A grounded sci-fi superhero feature film project.
 - **What is Zdhoorkya?** A global luxury fashion business combining Indian heritage Banarasi textiles with modern cuts.
