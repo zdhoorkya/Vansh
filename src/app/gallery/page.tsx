@@ -101,18 +101,29 @@ export default async function GalleryPage() {
                     </div>
 
                     {/* Meta descriptions */}
-                    <div className="pt-4 pb-2 px-2 flex justify-between items-center text-xs font-mono">
-                      <div className="flex flex-col">
-                        <span className="font-bold uppercase tracking-wider text-black/80 truncate max-w-[180px]">
-                          {filename.split("_")[0]}
-                        </span>
-                        <span className="text-[10px] text-black/45 mt-0.5">
-                          Format: {filename.split(".").pop()?.toUpperCase()}
+                    <div className="pt-4 pb-2 px-2 flex flex-col space-y-3 text-xs font-mono border-t border-black/5 mt-2">
+                      <div className="flex justify-between items-center">
+                        <div className="flex flex-col">
+                          <span className="font-bold uppercase tracking-wider text-black/80 truncate max-w-[150px]">
+                            {filename.split("_")[0]}
+                          </span>
+                          <span className="text-[10px] text-black/45 mt-0.5">
+                            Format: {filename.split(".").pop()?.toUpperCase()}
+                          </span>
+                        </div>
+                        <span className="text-lg font-bold text-black/20 font-mono">
+                          {cleanIndex}
                         </span>
                       </div>
-                      <span className="text-lg font-bold text-black/20 font-mono">
-                        {cleanIndex}
-                      </span>
+
+                      {/* Download Button */}
+                      <a
+                        href={`/uploads/${filename}`}
+                        download={filename}
+                        className="w-full text-center py-2 bg-white text-black border border-black hover:bg-black hover:text-white transition-colors duration-200 text-[10px] font-bold uppercase tracking-wider block"
+                      >
+                        Download Asset
+                      </a>
                     </div>
                   </article>
                 );
